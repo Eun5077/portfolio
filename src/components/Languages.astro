@@ -1,0 +1,34 @@
+---
+import { siteConfig } from "../config";
+---
+
+<section id="languages" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+
+    <div class="lg:col-span-4">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+        Languages
+      </h2>
+
+      <div
+        class="w-[75px] h-[5px] mt-2 rounded-full"
+        style={`background-color: ${siteConfig.accentColor}`}
+      ></div>
+    </div>
+
+    <div class="lg:col-span-8 space-y-6">
+      {siteConfig.languages.map((item) => (
+        <div class="flex justify-between items-center border-b border-gray-200 pb-4">
+          <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
+            {item.language}
+          </h3>
+
+          <p class="text-gray-600 text-sm sm:text-base text-right">
+            {item.proficiency}
+          </p>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
