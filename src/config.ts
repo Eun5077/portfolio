@@ -39,8 +39,9 @@ export const siteConfig = {
       date: "Oct 2026",
       description:
         "An interactive audiovisual system inspired by Korean traditional tightrope walking. Built with ChucK and ChuGL, featuring real-time waveform and frequency-spectrum visualization, algorithmic percussion with randomized rhythmic patterns, and keyboard-controlled interactions with traditional Korean vocal samples.",
-      link: "https://www.youtube.com/watch?v=yBSrb2m3r5o",
+      link: "https://github.com/Eun5077/jultagi",
       github: "https://github.com/Eun5077/jultagi",
+      demo: "https://www.youtube.com/watch?v=yBSrb2m3r5o",
       skills: ["ChucK", "ChuGL", "Audio Visualization", "Algorithmic Composition"],
       image: "/images/19.png",
     },
