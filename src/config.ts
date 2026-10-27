@@ -32,6 +32,7 @@ export const siteConfig = {
       link: "https://github.com/Eun5077/overlap-aware-speech-detection",
       github: "https://github.com/Eun5077/overlap-aware-speech-detection",
       skills: ["Python", "PyTorch", "Librosa", "Audio Machine Learning"],
+      image: "/images/ssr.png",
     },
     {
       name: "Audio Effects",
