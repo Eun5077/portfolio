@@ -25,6 +25,15 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "Overlap-Aware Speech Detection",
+      date: "Oct 2026",
+      description:
+        "A CNN-based spoken-speech detection experiment using log-Mel spectrograms and synthetic speech–singing mixtures. Compared identical architectures with and without overlap augmentation, improving mean overlap recall from 47.1% to 95.6% across three training seeds in a preliminary held-out-singer evaluation.",
+      link: "https://github.com/Eun5077/overlap-aware-speech-detection",
+      github: "https://github.com/Eun5077/overlap-aware-speech-detection",
+      skills: ["Python", "PyTorch", "Librosa", "Audio Machine Learning"],
+    },
+    {
       name: "Audio Effects",
       date: "Oct 2026",
       description:
