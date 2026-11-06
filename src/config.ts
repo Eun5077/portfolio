@@ -25,6 +25,17 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "Shoot Loop",
+      date: "Nov 2026",
+      description:
+        "An interactive music-making game built with ChucK and ChuGL. Shoot moving targets to play synthesized drums, melodies, bass lines, and chords, then layer performances with quantized loop recording and real-time sequencer visualization.",
+      link: "https://github.com/Eun5077/ShootLoop",
+      github: "https://github.com/Eun5077/ShootLoop",
+      demo: "https://www.youtube.com/watch?v=1sUCQeM3lJg",
+      skills: ["ChucK", "ChuGL", "Sound Synthesis", "Interactive Audio"],
+      image: "/images/shootLoop1.png",
+    },
+    {
       name: "Overlap-Aware Speech Detection",
       date: "Oct 2026",
       description:
