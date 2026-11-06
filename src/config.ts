@@ -84,7 +84,7 @@ export const siteConfig = {
       description:
         "A three-person Unreal Engine puzzle game set in Korea’s Gyeongbokgung Palace. Implemented Blueprint interactions for proximity-triggered doors, keyboard-controlled lighting, and puzzle feedback effects, and automated static mesh placement using Python.",
       link: "https://drive.google.com/file/d/1yY3E13rV7_YKXGFaEHwOEbYVdef7XWA6/view",
-      demo: "https://youtu.be/7bytJ2ISz_Y"
+      demo: "https://youtu.be/7bytJ2ISz_Y",
       skills: ["Unreal Engine", "Blueprints", "Python", "Gameplay Programming"],
       image: "/images/Doors-of-Memory.png",
     },
